@@ -28,7 +28,7 @@ void task_T2(void *data)
 {
             while(1)
            {
-               printf("\ntask_T2 with the periodcity T1=2000ms implemented\n");
+               printf("\ntask_T2 with the periodcity T2=2000ms implemented\n");
                
                vTaskDelay(2000 / portTICK_PERIOD_MS);
            }
@@ -39,7 +39,7 @@ void task_T3(void *data)
 {
             while(1)
            {
-               printf("\ntask_T3 with the periodcity T1=5000ms implemented\n");
+               printf("\ntask_T3 with the periodcity T3=5000ms implemented\n");
               
                vTaskDelay(5000 / portTICK_PERIOD_MS);
            }
