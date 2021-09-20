@@ -29,7 +29,7 @@ void task_T1(void *data)
            }
 }
 
-//tasks with the periodcity T1=2000ms
+//tasks with the periodcity T2=2000ms
 void task_T2(void *data)
 {
             while(1)
@@ -44,7 +44,7 @@ void task_T2(void *data)
 
 
 
-//tasks with the periodcity T1=5000ms
+//tasks with the periodcity T3=5000ms
 void task_T3(void *data)
 {
   
